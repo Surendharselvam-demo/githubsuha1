@@ -1,1 +1,24 @@
 creates test1.txt file
+class laptop:
+    price=0
+    processor=""
+    ram=""
+
+hp=laptop()
+dell=laptop()
+lenovo=laptop()
+
+hp.price=50000
+hp.processor="i5"
+hp.ram="8gb"
+
+dell.price=54000
+dell.processor="i5"
+dell.ram="12gb"
+
+lenovo.price=60000
+lenovo.processor="i7"
+lenovo.ram="16gb"
+
+print(hp.ram)
+
